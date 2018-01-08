@@ -1,7 +1,12 @@
-package main 
+package main
 
 import "fmt"
 
 func main() {
-	fmt.Println(42)
+	// fmt.Printf("%d - %b - %x \n", 42, 42, 42)
+	// fmt.Printf("%d - %b - %#x \n", 42, 42, 42)
+	// fmt.Printf("%d - %b - %#X \n", 42, 42, 42)
+	for i := 60; i < 122; i++ {
+		fmt.Printf("%d \t %b \t %X  %q     \n", i, i, i, i)
+	}
 }
